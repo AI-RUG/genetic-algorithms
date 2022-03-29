@@ -1,6 +1,7 @@
 body{
     text-align:center;
     font-family:"Open Sans",sans-serif;
+    font-size:18px;
 }
 
 h3 {
@@ -9,25 +10,31 @@ h3 {
     color:#cc0001;
 }
 
+ol {
+    margin-top:-30px;
+}
+
+ul {
+    margin-top:-30px;
+}
+
 a{
     color:#cc0001;
 }
 
-.button a {
+a.button {
     background:#cc0001;
     padding:10px;
-    border-radius: 20px;
+    border-radius: 10px;
     color:white;
     text-decoration: none; 
-    display: block;
-    margin-bottom:60px;
-    margin-top:30px;
-    margin-left:35%;
-    margin-right:35%;
+    display: inline-block;
+    margin-top:20px;
+    margin-right:90px;
     box-shadow: #7413134d 1px 2px 0px;
 }
 
-.button a:hover {
+a:hover.button {
     background:#741313;
 }
 
@@ -57,6 +64,7 @@ a{
     padding-left:10%;
     padding-right:10%;
     margin-top:80px;
+    text-align:left;
 }
 
 
@@ -68,7 +76,7 @@ a{
 }
 
 .ex {
-    font-style:italic;
+    font-weight:bold;
     margin-bottom:40px;
 }
 
